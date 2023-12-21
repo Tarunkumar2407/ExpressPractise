@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.table-container{
+  margin: 10px auto;
+  width: 80%;
+}
+
+.add-button{
+  float: right;
+}
+
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card{
+  margin: 20px auto;
+}
+
+.form-container{
+  width: 40%;
+  margin: 20px auto;
+}
