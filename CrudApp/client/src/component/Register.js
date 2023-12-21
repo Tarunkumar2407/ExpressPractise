@@ -28,7 +28,7 @@ const Register = () => {
         e.preventDefault()
         const {name, email, age, jobrole} = input
 
-        const response = fetch('http://localhost:8000/user/createuser', {
+            fetch('http://localhost:8000/user/createuser', {
             method: 'POST',
             body: JSON.stringify({
               name, email, age, jobrole
